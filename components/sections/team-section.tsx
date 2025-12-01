@@ -6,29 +6,32 @@ import Image from "next/image"
 
 const team = [
   {
-    name: "Dr. Ricardo Borges",
+    name: "Dr. Vinicius Borges",
     role: "Sócio Fundador",
     specialty: "Direito Societário e Tributário",
-    image: "/professional-male-lawyer-portrait-headshot.jpg",
+    image: "/vinicius 1.jpg",
   },
+
   {
-    name: "Dra. Fernanda Bezerra",
+    name: "Dr. Lucas",
+    role: "Sócio",
+    specialty: "Direito Societário e Tributário",
+    image: "/Lucas.jpg",
+  },
+
+  {
+    name: "Dra. Victória",
+    role: "Sócia",
+    specialty: "Direito Societário e Tributário",
+    image: "/victoria.jpg",
+  },
+
+  {
+    name: "Dra. Mariana Bezerra",
     role: "Sócia",
     specialty: "Planejamento Patrimonial",
-    image: "/professional-female-lawyer-portrait-headshot.jpg",
-  },
-  {
-    name: "Dr. Lucas Mendes",
-    role: "Associado Sênior",
-    specialty: "Direito Internacional",
-    image: "/professional-male-attorney-portrait-headshot.jpg",
-  },
-  {
-    name: "Dra. Carolina Santos",
-    role: "Associada",
-    specialty: "Sucessão e Família",
-    image: "/professional-female-attorney-portrait-headshot.jpg",
-  },
+    image: "/mariana.jpg",
+  },  
 ]
 
 export function TeamSection() {
