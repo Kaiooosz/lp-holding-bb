@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { ArrowRight, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -71,21 +72,25 @@ export function HeroSection() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center pt-4"
           >
-            <Button
-              size="lg"
-              className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6 text-base font-semibold group"
-            >
-              Agendar Consultoria
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="rounded-full px-8 py-6 text-base font-semibold border-2 bg-transparent"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Baixar Guia Completo
-            </Button>
+            <Link href="https://wa.me/5511982712025" target="_blank" rel="noopener noreferrer">
+              <Button
+                size="lg"
+                className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6 text-base font-semibold group"
+              >
+                Agendar Consultoria
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
+            <Link href="https://www.bezerraborges.com.br/artigos" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="outline"
+                size="lg"
+                className="rounded-full px-8 py-6 text-base font-semibold border-2 bg-transparent"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Baixar Guia Completo
+              </Button>
+            </Link>
           </motion.div>
 
           {/* Stats preview */}

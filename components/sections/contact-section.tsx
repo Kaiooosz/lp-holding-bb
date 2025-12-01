@@ -2,6 +2,7 @@
 
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 import { ArrowRight, Mail, Phone, MapPin, Clock } from "lucide-react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export function ContactSection() {
@@ -38,7 +39,7 @@ export function ContactSection() {
                 </a>
 
                 <a
-                  href="tel:+5511943665367"
+                  href="https://wa.me/5511982712025"
                   className="flex items-start gap-4 p-4 bg-card border border-border rounded-xl hover:shadow-md transition-all"
                 >
                   <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center shrink-0">
@@ -100,13 +101,20 @@ export function ContactSection() {
               <div className="border-t border-background/20 pt-8 mt-auto">
                 <div className="text-3xl font-bold mb-2">$125</div>
                 <div className="text-background/60 text-sm mb-6">Investimento na consultoria</div>
-                <Button
-                  size="lg"
-                  className="w-full bg-background text-foreground hover:bg-background/90 rounded-full py-6 text-base font-semibold group"
-                >
-                  Agendar Consultoria
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <Link 
+  href="https://wa.me/5511982712025"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full"
+>
+  <Button
+    size="lg"
+    className="w-full bg-background text-foreground hover:bg-background/90 rounded-full py-6 text-base font-semibold group"
+  >
+    Agendar Consultoria
+    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+  </Button>
+</Link>
               </div>
             </div>
           </AnimateOnScroll>

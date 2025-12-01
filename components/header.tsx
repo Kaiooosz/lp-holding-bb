@@ -59,11 +59,17 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-6">
-              Agendar Consulta
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-          </div>
+  <Link 
+    href="https://wa.me/5511982712025" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <Button className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-6">
+      Agendar Consulta
+      <ArrowRight className="ml-2 h-4 w-4" />
+    </Button>
+  </Link>
+</div>
 
           {/* Mobile Menu Button */}
           <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden p-2">

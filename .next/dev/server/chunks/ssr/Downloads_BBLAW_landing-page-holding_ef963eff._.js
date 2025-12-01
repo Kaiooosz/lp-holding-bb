@@ -86,7 +86,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landin
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/node_modules/lucide-react/dist/esm/icons/download.js [app-ssr] (ecmascript) <export default as Download>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/components/ui/button.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/node_modules/next/image.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -107,20 +109,20 @@ function HeroSection() {
                         priority: true
                     }, void 0, false, {
                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-background/85"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                lineNumber: 12,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -148,17 +150,17 @@ function HeroSection() {
                                     children: "BBLAW"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 29,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                lineNumber: 27,
+                                lineNumber: 28,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                            lineNumber: 21,
+                            lineNumber: 22,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -181,19 +183,19 @@ function HeroSection() {
                                         className: "w-2 h-2 rounded-full bg-foreground mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 40,
                                         columnNumber: 15
                                     }, this),
                                     "Especialistas em Holdings há mais de 10 anos"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                lineNumber: 38,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                            lineNumber: 33,
+                            lineNumber: 34,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h1, {
@@ -214,7 +216,7 @@ function HeroSection() {
                                 "Holdings Patrimoniais",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -222,13 +224,13 @@ function HeroSection() {
                                     children: "Proteja e Multiplique"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                            lineNumber: 45,
+                            lineNumber: 46,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -248,7 +250,7 @@ function HeroSection() {
                             children: "Estruture seu patrimônio e empresas com segurança jurídica, eficiência tributária e planejamento sucessório inteligente. A BBLAW transforma complexidade em estratégia."
                         }, void 0, false, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                            lineNumber: 57,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -266,47 +268,65 @@ function HeroSection() {
                             },
                             className: "flex flex-col sm:flex-row gap-4 justify-center pt-4",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
-                                    size: "lg",
-                                    className: "bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6 text-base font-semibold group",
-                                    children: [
-                                        "Agendar Consultoria",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                            className: "ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                            lineNumber: 79,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "https://wa.me/5511982712025",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                        size: "lg",
+                                        className: "bg-foreground text-background hover:bg-foreground/90 rounded-full px-8 py-6 text-base font-semibold group",
+                                        children: [
+                                            "Agendar Consultoria",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                                className: "ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
+                                                lineNumber: 81,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
+                                        lineNumber: 76,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
-                                    variant: "outline",
-                                    size: "lg",
-                                    className: "rounded-full px-8 py-6 text-base font-semibold border-2 bg-transparent",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__["Download"], {
-                                            className: "mr-2 h-5 w-5"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                            lineNumber: 86,
-                                            columnNumber: 15
-                                        }, this),
-                                        "Baixar Guia Completo"
-                                    ]
-                                }, void 0, true, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "https://www.bezerraborges.com.br/artigos",
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                        variant: "outline",
+                                        size: "lg",
+                                        className: "rounded-full px-8 py-6 text-base font-semibold border-2 bg-transparent",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__["Download"], {
+                                                className: "mr-2 h-5 w-5"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
+                                                lineNumber: 90,
+                                                columnNumber: 17
+                                            }, this),
+                                            "Baixar Guia Completo"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
+                                        lineNumber: 85,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                    lineNumber: 81,
+                                    lineNumber: 84,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                            lineNumber: 68,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -344,7 +364,7 @@ function HeroSection() {
                                             children: stat.value
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 109,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -352,29 +372,29 @@ function HeroSection() {
                                             children: stat.label
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 110,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 108,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                            lineNumber: 92,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                    lineNumber: 19,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -406,23 +426,23 @@ function HeroSection() {
                         className: "w-1.5 h-1.5 bg-muted-foreground rounded-full"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                        lineNumber: 124,
+                        lineNumber: 129,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                    lineNumber: 119,
+                    lineNumber: 124,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-                lineNumber: 113,
+                lineNumber: 118,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/hero-section.tsx",
-        lineNumber: 10,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
@@ -1898,8 +1918,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landin
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/node_modules/lucide-react/dist/esm/icons/phone.js [app-ssr] (ecmascript) <export default as Phone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-ssr] (ecmascript) <export default as MapPin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/node_modules/lucide-react/dist/esm/icons/clock.js [app-ssr] (ecmascript) <export default as Clock>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/BBLAW/landing-page-holding/components/ui/button.tsx [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -1922,7 +1944,7 @@ function ContactSection() {
                                         children: "Contato"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                        lineNumber: 15,
+                                        lineNumber: 16,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1930,7 +1952,7 @@ function ContactSection() {
                                         children: "Pronto para estruturar sua Holding?"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                        lineNumber: 16,
+                                        lineNumber: 17,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1938,13 +1960,13 @@ function ContactSection() {
                                         children: "Agende uma consultoria estratégica e descubra como uma holding pode transformar a gestão do seu patrimônio."
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                        lineNumber: 19,
+                                        lineNumber: 20,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                lineNumber: 14,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$animate$2d$on$2d$scroll$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimateOnScroll"], {
@@ -1962,12 +1984,12 @@ function ContactSection() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                        lineNumber: 32,
+                                                        lineNumber: 33,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 31,
+                                                    lineNumber: 32,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1977,7 +1999,7 @@ function ContactSection() {
                                                             children: "Email"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                            lineNumber: 35,
+                                                            lineNumber: 36,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1985,23 +2007,23 @@ function ContactSection() {
                                                             children: "contato@borgesbezerra.com.br"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                            lineNumber: 36,
+                                                            lineNumber: 37,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 34,
+                                                    lineNumber: 35,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 27,
+                                            lineNumber: 28,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+5511943665367",
+                                            href: "https://wa.me/5511982712025",
                                             className: "flex items-start gap-4 p-4 bg-card border border-border rounded-xl hover:shadow-md transition-all",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2010,12 +2032,12 @@ function ContactSection() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                        lineNumber: 45,
+                                                        lineNumber: 46,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 44,
+                                                    lineNumber: 45,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2025,7 +2047,7 @@ function ContactSection() {
                                                             children: "WhatsApp"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                            lineNumber: 48,
+                                                            lineNumber: 49,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2033,19 +2055,19 @@ function ContactSection() {
                                                             children: "+55 (11) 94366-5367"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                            lineNumber: 49,
+                                                            lineNumber: 50,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 47,
+                                                    lineNumber: 48,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 41,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2057,12 +2079,12 @@ function ContactSection() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                        lineNumber: 55,
+                                                        lineNumber: 56,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 54,
+                                                    lineNumber: 55,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2072,7 +2094,7 @@ function ContactSection() {
                                                             children: "Escritório"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                            lineNumber: 58,
+                                                            lineNumber: 59,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2080,19 +2102,19 @@ function ContactSection() {
                                                             children: "São Paulo, SP - Brasil"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                            lineNumber: 59,
+                                                            lineNumber: 60,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 57,
+                                                    lineNumber: 58,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 54,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2104,12 +2126,12 @@ function ContactSection() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                        lineNumber: 65,
+                                                        lineNumber: 66,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 65,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2119,7 +2141,7 @@ function ContactSection() {
                                                             children: "Horário"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                            lineNumber: 68,
+                                                            lineNumber: 69,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2127,36 +2149,36 @@ function ContactSection() {
                                                             children: "Seg - Sex: 9h às 18h"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                            lineNumber: 69,
+                                                            lineNumber: 70,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 68,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 64,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                    lineNumber: 26,
+                                    lineNumber: 27,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                lineNumber: 25,
+                                lineNumber: 26,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                        lineNumber: 13,
+                        lineNumber: 14,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$animate$2d$on$2d$scroll$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimateOnScroll"], {
@@ -2169,7 +2191,7 @@ function ContactSection() {
                                     children: "Consultoria Estratégica"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 80,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2177,7 +2199,7 @@ function ContactSection() {
                                     children: "Agende uma sessão exclusiva de 60 minutos com um de nossos especialistas para análise inicial do seu patrimônio e identificação das melhores estratégias de estruturação."
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 81,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2190,20 +2212,20 @@ function ContactSection() {
                                                     className: "w-2 h-2 rounded-full bg-background"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 88,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Análise patrimonial personalizada"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 89,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 87,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2213,20 +2235,20 @@ function ContactSection() {
                                                     className: "w-2 h-2 rounded-full bg-background"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 92,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Identificação de oportunidades"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 93,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 90,
+                                            lineNumber: 91,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2236,26 +2258,26 @@ function ContactSection() {
                                                     className: "w-2 h-2 rounded-full bg-background"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 95,
+                                                    lineNumber: 96,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Plano de ação preliminar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 97,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 94,
+                                            lineNumber: 95,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 86,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2266,7 +2288,7 @@ function ContactSection() {
                                             children: "$125"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 102,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2274,58 +2296,68 @@ function ContactSection() {
                                             children: "Investimento na consultoria"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 103,
                                             columnNumber: 17
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
-                                            size: "lg",
-                                            className: "w-full bg-background text-foreground hover:bg-background/90 rounded-full py-6 text-base font-semibold group",
-                                            children: [
-                                                "Agendar Consultoria",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                                    className: "ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                                    lineNumber: 108,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "https://wa.me/5511982712025",
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "w-full",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                                size: "lg",
+                                                className: "w-full bg-background text-foreground hover:bg-background/90 rounded-full py-6 text-base font-semibold group",
+                                                children: [
+                                                    "Agendar Consultoria",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                                        className: "ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
+                                                        lineNumber: 115,
+                                                        columnNumber: 5
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
+                                                lineNumber: 110,
+                                                columnNumber: 3
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                            lineNumber: 103,
+                                            lineNumber: 104,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 101,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                            lineNumber: 78,
+                            lineNumber: 79,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                        lineNumber: 77,
+                        lineNumber: 78,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-                lineNumber: 11,
+                lineNumber: 12,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-            lineNumber: 10,
+            lineNumber: 11,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/sections/contact-section.tsx",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 5
     }, this);
 }
@@ -2432,22 +2464,31 @@ function Header() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "hidden lg:flex items-center gap-4",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
-                                className: "bg-foreground text-background hover:bg-foreground/90 rounded-full px-6",
-                                children: [
-                                    "Agendar Consulta",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
-                                        className: "ml-2 h-4 w-4"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                                        lineNumber: 64,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "https://wa.me/5511982712025",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                    className: "bg-foreground text-background hover:bg-foreground/90 rounded-full px-6",
+                                    children: [
+                                        "Agendar Consulta",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                            className: "ml-2 h-4 w-4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
+                                            lineNumber: 69,
+                                            columnNumber: 7
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
+                                    lineNumber: 67,
+                                    columnNumber: 5
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
                                 lineNumber: 62,
-                                columnNumber: 13
+                                columnNumber: 3
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
@@ -2461,18 +2502,18 @@ function Header() {
                                 className: "h-6 w-6"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                                lineNumber: 70,
+                                lineNumber: 76,
                                 columnNumber: 33
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                 className: "h-6 w-6"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                                lineNumber: 70,
+                                lineNumber: 76,
                                 columnNumber: 61
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                            lineNumber: 69,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2511,7 +2552,7 @@ function Header() {
                                     children: item.label
                                 }, item.href, false, {
                                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 92,
                                     columnNumber: 17
                                 }, this)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$BBLAW$2f$landing$2d$page$2d$holding$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -2522,29 +2563,29 @@ function Header() {
                                         className: "ml-2 h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 103,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                                lineNumber: 95,
+                                lineNumber: 101,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                        lineNumber: 84,
+                        lineNumber: 90,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                    lineNumber: 78,
+                    lineNumber: 84,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Downloads/BBLAW/landing-page-holding/components/header.tsx",
-                lineNumber: 76,
+                lineNumber: 82,
                 columnNumber: 7
             }, this)
         ]
