@@ -1,18 +1,19 @@
 import { NextResponse } from "next/server"
 import Stripe from "stripe"
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: "2024-06-20" as any,
-})
-
 export async function POST(request: Request) {
   try {
+    const stripeSecretKey = process.env.STRIPE_SECRET_KEY
     const body = await request.json()
     const { priceId } = body
 
-    if (!process.env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET_KEY.includes("SUBSTITUA")) {
-      return NextResponse.json({ error: "Configuração do Stripe incompleta. Por favor, adicione sua Secret Key no arquivo .env.local." }, { status: 500 })
+    if (!stripeSecretKey || stripeSecretKey.includes("SUBSTITUA")) {
+      return NextResponse.json({ error: "Configuração do Stripe incompleta. Por favor, adicione sua Secret Key no painel da Vercel." }, { status: 500 })
     }
+
+    const stripe = new Stripe(stripeSecretKey, {
+      apiVersion: "2024-06-20" as any,
+    })
 
     if (!priceId) {
       return NextResponse.json({ error: "Price ID é obrigatório" }, { status: 400 })
