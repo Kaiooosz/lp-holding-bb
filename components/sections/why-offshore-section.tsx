@@ -2,6 +2,7 @@
 
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
 import { Check, Globe, Shield, Banknote, Scale } from "lucide-react"
+import Image from "next/image"
 
 const offshoreReasons = [
   {
@@ -38,34 +39,53 @@ const features = [
 
 export function WhyOffshoreSection() {
   return (
-    <section id="offshore" className="py-24 md:py-32 bg-muted/30">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+    <section id="offshore" className="py-28 md:py-36 bg-[#080808] relative overflow-hidden">
+      {/* Background image decoration */}
+      <div className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-20">
+        <Image 
+          src="/premium-bg.png" 
+          alt="Premium Background" 
+          fill 
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#080808] via-[#080808]/80 to-transparent" />
+      </div>
+
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-16 xl:gap-24 items-start">
           {/* Content */}
           <div>
             <AnimateOnScroll>
-              <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
-                Internacionalização
-              </span>
-              <h2 className="text-3xl md:text-5xl font-serif font-bold mt-4 mb-6 text-balance">
-                Por que considerar uma estrutura Offshore?
+              <span className="label-minimal text-white">Internacionalização</span>
+              <h2 className="title-kast text-[clamp(1.8rem,4vw,3.2rem)] text-white mt-6 leading-tight">
+                POR QUE
               </h2>
-              <p className="text-muted-foreground text-lg mb-8 text-pretty leading-relaxed">
-                Uma holding internacional oferece vantagens únicas para quem busca proteção patrimonial robusta e
-                planejamento sucessório eficiente em um cenário globalizado.
+              <h2 className="title-kast-thin text-[clamp(1.8rem,4vw,3.2rem)] text-white/50 leading-none -mt-1">
+                considerar uma
+              </h2>
+              <h2 className="title-kast text-[clamp(1.8rem,4vw,3.2rem)] text-white leading-none -mt-1">
+                OFFSHORE?
+              </h2>
+              <p className="body-premium text-white/65 text-base mt-8 max-w-md">
+                Uma holding internacional oferece vantagens únicas para quem busca proteção patrimonial
+                robusta e planejamento sucessório eficiente em um cenário globalizado.
               </p>
             </AnimateOnScroll>
 
-            <div className="space-y-6">
+            <div className="mt-12 space-y-8">
               {offshoreReasons.map((reason, index) => (
                 <AnimateOnScroll key={index} delay={index * 0.1} direction="left">
-                  <div className="flex gap-4">
-                    <div className="w-12 h-12 rounded-lg bg-foreground text-background flex items-center justify-center shrink-0">
-                      <reason.icon className="h-6 w-6" />
+                  <div className="flex gap-5 group">
+                    <div className="w-10 h-10 flex items-center justify-center shrink-0 border border-white/10 rounded-sm group-hover:border-white/25 transition-colors duration-300">
+                      <reason.icon className="h-4 w-4 text-white/40 group-hover:text-white/70 transition-colors duration-300" />
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">{reason.title}</h3>
-                      <p className="text-muted-foreground text-sm leading-relaxed">{reason.description}</p>
+                      <h3 className="text-white font-medium text-sm mb-1.5 tracking-tight">
+                        {reason.title}
+                      </h3>
+                      <p className="body-premium text-white/65 text-sm">
+                        {reason.description}
+                      </p>
                     </div>
                   </div>
                 </AnimateOnScroll>
@@ -73,30 +93,28 @@ export function WhyOffshoreSection() {
             </div>
           </div>
 
-          {/* Features Card */}
+          {/* Features Panel */}
           <AnimateOnScroll direction="right">
-            <div className="relative">
-              <div className="bg-foreground text-background rounded-2xl p-8 md:p-12">
-                <h3 className="text-2xl font-serif font-bold mb-8">Principais Benefícios</h3>
-                <ul className="space-y-4">
-                  {features.map((feature, index) => (
-                    <li key={index} className="flex items-center gap-3">
-                      <div className="w-6 h-6 rounded-full bg-background/10 flex items-center justify-center">
-                        <Check className="h-4 w-4" />
-                      </div>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="mt-10 pt-8 border-t border-background/20">
-                  <p className="text-sm text-background/70">
-                    Todas as estruturas são implementadas em total conformidade com a legislação brasileira e
-                    internacional.
-                  </p>
-                </div>
+            <div className="border border-white/8 rounded-sm p-10 lg:p-12 bg-[#0c0c0c]">
+              <span className="label-minimal text-white/50 block mb-8">Principais Benefícios</span>
+              <ul className="space-y-5">
+                {features.map((feature, index) => (
+                  <li key={index} className="flex items-center gap-4 group">
+                    <div className="w-4 h-4 flex items-center justify-center shrink-0">
+                      <Check className="h-3 w-3 text-white/35 group-hover:text-white/70 transition-colors" />
+                    </div>
+                    <span className="body-premium text-white/80 text-sm group-hover:text-white/95 transition-colors">
+                      {feature}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-10 pt-8 border-t border-white/8">
+                <p className="body-premium text-white/40 text-xs">
+                  Todas as estruturas são implementadas em total conformidade com a legislação brasileira e
+                  internacional.
+                </p>
               </div>
-              {/* Decorative element */}
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-muted rounded-2xl -z-10" />
             </div>
           </AnimateOnScroll>
         </div>

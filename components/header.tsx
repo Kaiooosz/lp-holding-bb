@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X, ArrowRight } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Button } from "@/components/ui/button"
 
 const navItems = [
   { label: "Benefícios", href: "#benefits" },
@@ -21,7 +20,7 @@ export function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
+      setIsScrolled(window.scrollY > 60)
     }
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
@@ -29,20 +28,22 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-sm" : "bg-transparent"
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
+        isScrolled
+          ? "bg-[#050505]/90 backdrop-blur-xl border-b border-white/6"
+          : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-17">
-          {/* Logo */}
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
+        <div className="flex items-center justify-between h-18 py-4">
+          {/* Logo SVG branca */}
           <Link href="/" className="flex items-center">
-  <img 
-    src="/Logofundopreto.png" 
-    alt="Offshore Logo" 
-    className="h-22 w-auto object-contain"
-  />
-</Link>
+            <img
+              src="/Logo Branco.svg"
+              alt="Bezerra Borges"
+              className="h-8 w-auto object-contain"
+            />
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
@@ -50,7 +51,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="label-minimal text-white hover:opacity-100 transition-opacity duration-200"
               >
                 {item.label}
               </Link>
@@ -58,22 +59,27 @@ export function Header() {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden lg:flex items-center gap-4">
-  <Link 
-    href="https://wa.me/5511982712025" 
-    target="_blank" 
-    rel="noopener noreferrer"
-  >
-    <Button className="bg-foreground text-background hover:bg-foreground/90 rounded-full px-6">
-      Agendar Consulta
-      <ArrowRight className="ml-2 h-4 w-4" />
-    </Button>
-  </Link>
-</div>
+          <div className="hidden lg:flex items-center">
+            <Link
+              href="https://wa.me/5511982712025"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="btn-kast-wrapper">
+                <button className="btn-kast text-[10px] py-2 px-5">
+                  Agendar Consulta
+                  <ArrowRight className="h-3 w-3" />
+                </button>
+              </span>
+            </Link>
+          </div>
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden p-2">
-            {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="lg:hidden p-2 text-white/70 hover:text-white transition-colors"
+          >
+            {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
       </div>
@@ -85,23 +91,34 @@ export function Header() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-background border-t border-border"
+            className="lg:hidden bg-[#050505] border-t border-white/8"
           >
-            <nav className="flex flex-col p-4 gap-4">
+            <nav className="flex flex-col px-6 py-6 gap-5">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-lg font-medium py-2"
+                  className="label-minimal text-white/70 hover:text-white transition-colors"
                 >
                   {item.label}
                 </Link>
               ))}
-              <Button className="bg-foreground text-background hover:bg-foreground/90 rounded-full mt-4">
-                Agendar Consulta
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <div className="pt-4 border-t border-white/8">
+                <Link
+                  href="https://wa.me/5511982712025"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
+                  <span className="btn-kast-wrapper w-full">
+                    <button className="btn-kast w-full text-xs">
+                      Agendar Consulta
+                      <ArrowRight className="h-3.5 w-3.5" />
+                    </button>
+                  </span>
+                </Link>
+              </div>
             </nav>
           </motion.div>
         )}

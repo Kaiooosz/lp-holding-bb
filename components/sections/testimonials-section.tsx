@@ -7,55 +7,61 @@ import Image from "next/image"
 const testimonials = [
   {
     quote:
-      "A BBLAW transformou completamente a gestão do nosso patrimônio familiar. A holding que estruturaram nos deu paz de espírito e economia tributária significativa.",
+      "A Bezerra Borges transformou completamente a gestão do nosso patrimônio familiar. A holding que estruturaram nos deu paz de espírito e economia tributária significativa.",
     author: "Roberto M.",
     role: "Empresário do setor industrial",
-    image: "/professional-businessman-portrait.png",
+    image: "/testimonial_roberto.png",
   },
   {
     quote:
       "Profissionalismo e expertise de alto nível. O planejamento sucessório que fizeram garantiu a continuidade dos nossos negócios sem conflitos familiares.",
     author: "Márcia L.",
     role: "Herdeira e investidora",
-    image: "/professional-businesswoman-portrait.png",
+    image: "/testimonial_patricia.png",
   },
   {
     quote:
       "A estrutura offshore que implementaram nos permitiu expandir internacionalmente com total segurança jurídica. Recomendo fortemente.",
     author: "Carlos A.",
     role: "CEO de grupo empresarial",
-    image: "/executive-portrait.png",
+    image: "/testimonial_carlos.png",
   },
 ]
 
 export function TestimonialsSection() {
   return (
-    <section className="py-24 md:py-32 bg-foreground text-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AnimateOnScroll className="text-center mb-16">
-          <span className="text-sm font-medium text-background/60 uppercase tracking-wider">Depoimentos</span>
-          <h2 className="text-3xl md:text-5xl font-serif font-bold mt-4 mb-6 text-balance">
-            O que nossos clientes dizem
+    <section className="py-28 md:py-36 bg-[#050505]">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
+        <AnimateOnScroll className="mb-20">
+          <span className="label-minimal text-white">Depoimentos</span>
+          <h2 className="title-kast text-[clamp(1.8rem,4.5vw,3.5rem)] text-white mt-6 leading-tight">
+            O QUE NOSSOS
+          </h2>
+          <h2 className="title-kast-thin text-[clamp(1.8rem,4.5vw,3.5rem)] text-white/50 leading-none -mt-1">
+            clientes dizem
           </h2>
         </AnimateOnScroll>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-px bg-white/6">
           {testimonials.map((testimonial, index) => (
-            <AnimateOnScroll key={index} delay={index * 0.15}>
-              <div className="bg-background/5 border border-background/10 rounded-xl p-8 h-full flex flex-col">
-                <Quote className="w-10 h-10 text-background/20 mb-6" />
-                <p className="text-background/90 leading-relaxed flex-grow mb-6">"{testimonial.quote}"</p>
-                <div className="flex items-center gap-4 pt-6 border-t border-background/10">
-                  <Image
-                    src={testimonial.image || "/placeholder.svg"}
-                    alt={testimonial.author}
-                    width={48}
-                    height={48}
-                    className="rounded-full"
-                  />
+            <AnimateOnScroll key={index} delay={index * 0.12}>
+              <div className="bg-[#050505] hover:bg-[#0a0a0a] transition-all duration-300 p-8 h-full flex flex-col">
+                <Quote className="w-6 h-6 text-white/15 mb-6 shrink-0" />
+                <p className="body-premium text-white/70 text-sm leading-relaxed flex-grow mb-8 italic">
+                  "{testimonial.quote}"
+                </p>
+                <div className="border-t border-white/8 pt-6 flex items-center gap-4">
+                  <div className="relative w-10 h-10 rounded-full overflow-hidden border border-white/10 shrink-0">
+                    <Image
+                      src={testimonial.image}
+                      alt={testimonial.author}
+                      fill
+                      className="object-cover grayscale group-hover:grayscale-0 transition-all"
+                    />
+                  </div>
                   <div>
-                    <div className="font-semibold">{testimonial.author}</div>
-                    <div className="text-sm text-background/60">{testimonial.role}</div>
+                    <div className="text-white font-medium text-sm tracking-tight">{testimonial.author}</div>
+                    <div className="label-minimal text-white/50 mt-0.5">{testimonial.role}</div>
                   </div>
                 </div>
               </div>

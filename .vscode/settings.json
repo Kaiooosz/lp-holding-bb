@@ -1,0 +1,12 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.experimental.classRegex": [
+    ["title-kast\\s*\"(.*?)\"", "(.*)"],
+    ["title-kast-thin\\s*\"(.*?)\"", "(.*)"],
+    ["body-premium\\s*\"(.*?)\"", "(.*)"],
+    ["label-minimal\\s*\"(.*?)\"", "(.*)"]
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}

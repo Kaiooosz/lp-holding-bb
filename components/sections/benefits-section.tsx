@@ -2,6 +2,7 @@
 
 import { Shield, TrendingUp, Users, Building2, Lock, FileText } from "lucide-react"
 import { AnimateOnScroll } from "@/components/animate-on-scroll"
+import Image from "next/image"
 
 const benefits = [
   {
@@ -38,27 +39,42 @@ const benefits = [
 
 export function BenefitsSection() {
   return (
-    <section id="benefits" className="py-24 md:py-32 bg-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <AnimateOnScroll className="text-center mb-16">
-          <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Vantagens</span>
-          <h2 className="text-3xl md:text-5xl font-serif font-bold mt-4 mb-6 text-balance">
-            Por que criar uma Holding?
+    <section id="benefits" className="py-28 md:py-36 bg-[#050505] relative overflow-hidden">
+      {/* Background image decoration */}
+      <div className="absolute top-0 right-0 w-[60%] h-full pointer-events-none opacity-[0.07]">
+        <Image 
+          src="/premium-bg.png" 
+          alt="Premium Background" 
+          fill 
+          className="object-cover scale-x-[-1]" 
+        />
+        <div className="absolute inset-0 bg-gradient-to-l from-[#050505] via-transparent to-[#050505]" />
+      </div>
+
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 relative z-10">
+        <AnimateOnScroll className="mb-20">
+          <span className="label-minimal text-white">Vantagens</span>
+          <h2 className="title-kast text-[clamp(1.8rem,4.5vw,3.5rem)] text-white mt-6 leading-tight">
+            POR QUE CRIAR
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto text-pretty">
-            Vantagens estratégicas que transformam a gestão do seu patrimônio
-          </p>
+          <h2 className="title-kast-thin text-[clamp(1.8rem,4.5vw,3.5rem)] text-white/50 leading-none -mt-1">
+            uma Holding?
+          </h2>
         </AnimateOnScroll>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/6">
           {benefits.map((benefit, index) => (
-            <AnimateOnScroll key={index} delay={index * 0.1}>
-              <div className="group p-8 bg-card border border-border rounded-lg hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center mb-6 group-hover:bg-foreground group-hover:text-background transition-colors">
-                  <benefit.icon className="h-6 w-6" />
+            <AnimateOnScroll key={index} delay={index * 0.08}>
+              <div className="group p-8 bg-[#050505] hover:bg-[#0d0d0d] transition-all duration-300">
+                <div className="w-9 h-9 flex items-center justify-center mb-7">
+                  <benefit.icon className="h-5 w-5 text-white/40 group-hover:text-white/80 transition-colors duration-300" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">{benefit.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{benefit.description}</p>
+                <h3 className="text-white font-medium text-base mb-3 tracking-tight">
+                  {benefit.title}
+                </h3>
+                <p className="body-premium text-white/70 text-sm group-hover:text-white/90 transition-colors duration-300">
+                  {benefit.description}
+                </p>
               </div>
             </AnimateOnScroll>
           ))}

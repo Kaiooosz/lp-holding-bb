@@ -1,83 +1,57 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
-/* Tema premium BBLAW - branco, preto e cinza titânio */
+/* BBLAW - Dark Premium Branding */
 :root {
-  --background: oklch(0.98 0 0);
-  --foreground: oklch(0.12 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.12 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.12 0 0);
-  --primary: oklch(0.15 0 0);
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.95 0 0);
-  --secondary-foreground: oklch(0.15 0 0);
-  --muted: oklch(0.92 0 0);
-  --muted-foreground: oklch(0.45 0 0);
+  --background: oklch(0.06 0 0);
+  --foreground: oklch(0.97 0 0);
+  --card: oklch(0.09 0 0);
+  --card-foreground: oklch(0.97 0 0);
+  --popover: oklch(0.09 0 0);
+  --popover-foreground: oklch(0.97 0 0);
+  --primary: oklch(0.97 0 0);
+  --primary-foreground: oklch(0.06 0 0);
+  --secondary: oklch(0.13 0 0);
+  --secondary-foreground: oklch(0.97 0 0);
+  --muted: oklch(0.13 0 0);
+  --muted-foreground: oklch(0.65 0 0);
   --accent: oklch(0.55 0 0);
-  --accent-foreground: oklch(0.98 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.88 0 0);
-  --input: oklch(0.92 0 0);
-  --ring: oklch(0.45 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.5rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --accent-foreground: oklch(0.97 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.16 0 0);
+  --input: oklch(0.13 0 0);
+  --ring: oklch(0.50 0 0);
+  --radius: 0.375rem;
 }
 
 .dark {
-  --background: oklch(0.12 0 0);
-  --foreground: oklch(0.98 0 0);
-  --card: oklch(0.15 0 0);
-  --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.15 0 0);
-  --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.98 0 0);
-  --primary-foreground: oklch(0.12 0 0);
-  --secondary: oklch(0.22 0 0);
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.22 0 0);
+  --background: oklch(0.06 0 0);
+  --foreground: oklch(0.97 0 0);
+  --card: oklch(0.09 0 0);
+  --card-foreground: oklch(0.97 0 0);
+  --popover: oklch(0.09 0 0);
+  --popover-foreground: oklch(0.97 0 0);
+  --primary: oklch(0.97 0 0);
+  --primary-foreground: oklch(0.06 0 0);
+  --secondary: oklch(0.13 0 0);
+  --secondary-foreground: oklch(0.97 0 0);
+  --muted: oklch(0.13 0 0);
   --muted-foreground: oklch(0.65 0 0);
   --accent: oklch(0.55 0 0);
-  --accent-foreground: oklch(0.98 0 0);
+  --accent-foreground: oklch(0.97 0 0);
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.25 0 0);
-  --input: oklch(0.22 0 0);
-  --ring: oklch(0.55 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  --border: oklch(0.16 0 0);
+  --input: oklch(0.13 0 0);
+  --ring: oklch(0.50 0 0);
 }
+
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --font-sans: "Inter", "Inter Fallback";
-  --font-serif: "Playfair Display", "Georgia", serif;
+  --font-serif: "Inter", sans-serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -97,35 +71,310 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
 }
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    border-color: var(--border);
+    outline-color: var(--ring);
   }
   body {
-    @apply bg-background text-foreground;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: "Inter", sans-serif;
   }
 }
 
-/* Scroll suave */
 html {
   scroll-behavior: smooth;
+}
+
+/* =============================================
+   BBLAW — TIPOGRAFIA SISTEMA KAST-INSPIRED
+   ============================================= */
+
+/* Título com efeito escurecendo nas pontas (gradient mask) */
+.title-kast {
+  font-family: "Inter", sans-serif;
+  font-weight: 300; /* De 700 para 300: Elegância fina */
+  letter-spacing: -0.04em;
+  line-height: 0.88;
+  text-transform: uppercase;
+  color: white;
+
+  /* Efeito: branco no centro, escurece suavemente nas pontas */
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.4) 0%,
+    rgba(255,255,255,1) 35%,
+    rgba(255,255,255,1) 65%,
+    rgba(255,255,255,0.4) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-kast-thin {
+  font-family: "Inter", sans-serif;
+  font-weight: 100; /* Letra ultra fina */
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  font-style: normal; /* Removendo italic para um look mais minimal moderno */
+
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.15) 0%,
+    rgba(255,255,255,0.7) 35%,
+    rgba(255,255,255,0.7) 65%,
+    rgba(255,255,255,0.15) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Label minimalista — mais fino */
+.label-minimal {
+  font-family: "Inter", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+/* Body ultra premium — peso 200/300 */
+.body-premium {
+  font-family: "Inter", sans-serif;
+  font-weight: 200; /* Letra fina e elegante */
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+/* Número de stat — fino */
+.stat-number {
+  font-family: "Inter", sans-serif;
+  font-weight: 200; /* Letra fina como solicitado */
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+/* =============================================
+   BOTÃO PRIMÁRIO — com brilho girando na borda
+   ============================================= */
+
+.btn-kast-wrapper {
+  position: relative;
+  display: inline-flex;
+  border-radius: 9999px;
+  padding: 1px;
+  background: transparent;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Anel animado que gira em volta do botão */
+.btn-kast-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: -60%;
+  background: conic-gradient(
+    from var(--angle, 0deg),
+    transparent 0deg,
+    transparent 120deg,
+    rgba(255, 255, 255, 0.9) 135deg,
+    rgba(255, 255, 255, 0.4) 150deg,
+    transparent 165deg,
+    transparent 240deg,
+    rgba(255, 255, 255, 0.5) 255deg,
+    rgba(255, 255, 255, 0.2) 265deg,
+    transparent 275deg,
+    transparent 360deg
+  );
+  animation: spin-border 3s linear infinite;
+  border-radius: 9999px;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin-border {
+  from { --angle: 0deg; }
+  to   { --angle: 360deg; }
+}
+
+/* Botão principal — PRETO com texto branco (Kast Minimal) */
+.btn-kast {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2.25rem;
+  background: #050505; /* Preto igual ao fundo */
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 400; /* Letra fina no botão também */
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  border: 1px solid rgba(255,255,255,0.1); 
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+}
+
+.btn-kast:hover {
+  background: #0e0e0e;
+  border-color: rgba(255,255,255,0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+}
+
+/* Botão outline */
+.btn-kast-outline {
+  background: transparent;
+  border-color: rgba(255,255,255,0.08);
+}
+
+/* Botão grande CTA — Ajuste mobile */
+.btn-kast-lg {
+  padding: 0.875rem 2.25rem;
+  font-size: 0.8125rem;
+}
+
+@media (max-width: 640px) {
+  .btn-kast-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.6875rem;
+  }
+  .title-kast, .title-kast-thin {
+    letter-spacing: -0.02em;
+  }
+}
+
+/* =============================================
+   PILL BADGE MINIMALISTA
+   ============================================= */
+
+.pill-minimal {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.875rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 9999px;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.6);
+}
+
+/* =============================================
+   EFEITO GLOW — STRIPE CTA CARD
+   ============================================= */
+
+.card-stripe-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-stripe-glow::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--angle2, 0deg),
+    transparent 0deg,
+    transparent 100deg,
+    rgba(255,255,255,0.15) 120deg,
+    transparent 140deg,
+    transparent 280deg,
+    rgba(255,255,255,0.08) 295deg,
+    transparent 310deg,
+    transparent 360deg
+  );
+  animation: spin-border 6s linear infinite;
+  pointer-events: none;
+  border-radius: 0.375rem;
+}
+
+@property --angle2 {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin-border-card {
+  from { --angle2: 0deg; }
+  to   { --angle2: 360deg; }
+}
+
+/* =============================================
+   FAQ ACCORDION
+   ============================================= */
+
+.faq-item {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  border-bottom-color: rgba(255,255,255,0.16);
+}
+
+.faq-question {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: -0.01em;
+  line-height: 1.4;
+  transition: color 0.2s ease;
+}
+
+.faq-question:hover {
+  color: #ffffff;
+}
+
+.faq-answer {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 0.9375rem;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+}
+
+/* =============================================
+   ANIMAÇÃO FADE-UP
+   ============================================= */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+/* =============================================
+   SCROLL PROGRESS
+   ============================================= */
+
+.scroll-progress-bar {
+  background: rgba(255,255,255,0.6);
 }
