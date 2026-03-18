@@ -81,18 +81,18 @@ export function HeroSection() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-3 md:ml-auto">
-            <Link href="https://wa.me/5511982712025" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.formsbblaw.com.br/" target="_blank" rel="noopener noreferrer">
               <span className="btn-kast-wrapper">
                 <button className="btn-kast btn-kast-lg">
-                  Agendar Consultoria
+                  Preencher Formulário
                   <ArrowRight className="h-4 w-4" />
                 </button>
               </span>
             </Link>
-            <Link href="#benefits">
+            <Link href="https://wa.me/5511982712025" target="_blank" rel="noopener noreferrer">
               <span className="btn-kast-wrapper">
                 <button className="btn-kast btn-kast-lg btn-kast-outline">
-                  Saiba Mais
+                  Agendar Consultoria
                 </button>
               </span>
             </Link>

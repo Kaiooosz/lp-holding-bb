@@ -17,8 +17,23 @@ export async function POST(request: Request) {
       apiVersion: "2024-06-20" as any,
     })
 
-    if (!priceId) {
-      return NextResponse.json({ error: "Price ID é obrigatório" }, { status: 400 })
+    let targetPriceId = priceId
+
+    // Se o priceId começar com prod_, buscamos o primeiro preço ativo desse produto
+    if (priceId.startsWith("prod_")) {
+      const prices = await stripe.prices.list({
+        product: priceId,
+        active: true,
+        limit: 1,
+      })
+
+      if (prices.data.length === 0) {
+        return NextResponse.json(
+          { error: "Nenhum preço ativo encontrado para este produto." },
+          { status: 400 }
+        )
+      }
+      targetPriceId = prices.data[0].id
     }
 
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
@@ -28,13 +43,13 @@ export async function POST(request: Request) {
       mode: "payment",
       line_items: [
         {
-          price: priceId,
+          price: targetPriceId,
           quantity: 1,
         },
       ],
       success_url: `${baseUrl}/?success=true`,
       cancel_url: `${baseUrl}/?canceled=true`,
-      locale: "auto", // Auto detecta o idioma
+      locale: "auto",
       billing_address_collection: "required",
       phone_number_collection: {
         enabled: true,

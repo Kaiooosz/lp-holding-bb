@@ -58,15 +58,26 @@ export function Header() {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden lg:flex items-center">
+          {/* CTA Buttons */}
+          <div className="hidden lg:flex items-center gap-3">
+            <Link
+              href="https://www.formsbblaw.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="btn-kast-wrapper">
+                <button className="btn-kast text-[10px] py-2 px-5 font-bold uppercase tracking-wider">
+                  Preencher Formulário
+                </button>
+              </span>
+            </Link>
             <Link
               href="https://wa.me/5511982712025"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="btn-kast-wrapper">
-                <button className="btn-kast text-[10px] py-2 px-5">
+                <button className="btn-kast btn-kast-outline text-[10px] py-2 px-5">
                   Agendar Consulta
                   <ArrowRight className="h-3 w-3" />
                 </button>
@@ -104,7 +115,19 @@ export function Header() {
                   {item.label}
                 </Link>
               ))}
-              <div className="pt-4 border-t border-white/8">
+              <div className="pt-4 border-t border-white/8 flex flex-col gap-3">
+                <Link
+                  href="https://www.formsbblaw.com.br/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
+                  <span className="btn-kast-wrapper w-full">
+                    <button className="btn-kast w-full text-xs font-bold uppercase tracking-wider">
+                      Preencher Formulário
+                    </button>
+                  </span>
+                </Link>
                 <Link
                   href="https://wa.me/5511982712025"
                   target="_blank"
@@ -112,7 +135,7 @@ export function Header() {
                   className="w-full"
                 >
                   <span className="btn-kast-wrapper w-full">
-                    <button className="btn-kast w-full text-xs">
+                    <button className="btn-kast btn-kast-outline w-full text-xs">
                       Agendar Consulta
                       <ArrowRight className="h-3.5 w-3.5" />
                     </button>
