@@ -66,7 +66,7 @@ export function Header() {
               rel="noopener noreferrer"
             >
               <span className="btn-kast-wrapper">
-                <button className="btn-kast text-[10px] py-2 px-5 font-bold uppercase tracking-wider">
+                <button className="btn-kast text-[9px] py-1.5 px-4 font-bold uppercase tracking-[0.15em]">
                   Preencher Formulário
                 </button>
               </span>
@@ -77,7 +77,7 @@ export function Header() {
               rel="noopener noreferrer"
             >
               <span className="btn-kast-wrapper">
-                <button className="btn-kast btn-kast-outline text-[10px] py-2 px-5">
+                <button className="btn-kast btn-kast-outline text-[9px] py-1.5 px-3.5">
                   Agendar Consulta
                   <ArrowRight className="h-3 w-3" />
                 </button>
@@ -123,7 +123,7 @@ export function Header() {
                   className="w-full"
                 >
                   <span className="btn-kast-wrapper w-full">
-                    <button className="btn-kast w-full text-xs font-bold uppercase tracking-wider">
+                    <button className="btn-kast w-full text-[10px] py-2.5 font-bold uppercase tracking-[0.15em]">
                       Preencher Formulário
                     </button>
                   </span>
@@ -135,7 +135,7 @@ export function Header() {
                   className="w-full"
                 >
                   <span className="btn-kast-wrapper w-full">
-                    <button className="btn-kast btn-kast-outline w-full text-xs">
+                    <button className="btn-kast btn-kast-outline w-full text-[10px] py-2.5">
                       Agendar Consulta
                       <ArrowRight className="h-3.5 w-3.5" />
                     </button>
