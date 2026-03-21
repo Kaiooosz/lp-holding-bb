@@ -61,18 +61,7 @@ export function Header() {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              href="https://www.formsbblaw.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="btn-kast-wrapper">
-                <button className="btn-kast text-[9px] py-1.5 px-4 font-bold uppercase tracking-[0.15em]">
-                  Preencher Formulário
-                </button>
-              </span>
-            </Link>
-            <Link
-              href="https://wa.me/5511982712025"
+              href="https://wa.me/5521979901686"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -117,19 +106,7 @@ export function Header() {
               ))}
               <div className="pt-4 border-t border-white/8 flex flex-col gap-3">
                 <Link
-                  href="https://www.formsbblaw.com.br/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full"
-                >
-                  <span className="btn-kast-wrapper w-full">
-                    <button className="btn-kast w-full text-[10px] py-2.5 font-bold uppercase tracking-[0.15em]">
-                      Preencher Formulário
-                    </button>
-                  </span>
-                </Link>
-                <Link
-                  href="https://wa.me/5511982712025"
+                  href="https://wa.me/5521979901686"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full"

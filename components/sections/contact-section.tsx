@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react"
 import { StripeCheckoutButton } from "@/components/stripe-checkout-button"
 
 export function ContactSection() {
-  const WHATSAPP_NUMBER = "5511982712025"
+  const WHATSAPP_NUMBER = "5521979901686"
   const STRIPE_PRODUCT_ID = "prod_U8W26zI0dRzFzG" // ID do produto fornecido pelo usuário
 
   return (
@@ -60,7 +60,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <div className="label-minimal text-white/30 group-hover:text-white/60 transition-colors">WhatsApp</div>
-                    <div className="text-white/80 text-sm font-medium mt-0.5">+55 11 98271-2025</div>
+                    <div className="text-white/80 text-sm font-medium mt-0.5">+55 21 97990-1686</div>
                   </div>
                 </a>
 
