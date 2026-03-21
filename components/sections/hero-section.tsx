@@ -81,6 +81,13 @@ export function HeroSection() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-3 md:ml-auto">
+            <Link href="https://www.formsbblaw.com.br/" target="_blank" rel="noopener noreferrer">
+              <span className="btn-kast-wrapper">
+                <button className="btn-kast btn-kast-lg">
+                  Preencher Formulário e Falar com I.A.
+                </button>
+              </span>
+            </Link>
             <Link href="https://wa.me/5521979901686" target="_blank" rel="noopener noreferrer">
               <span className="btn-kast-wrapper">
                 <button className="btn-kast btn-kast-lg btn-kast-outline">
