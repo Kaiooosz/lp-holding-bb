@@ -97,45 +97,25 @@ html {
    BBLAW — TIPOGRAFIA SISTEMA KAST-INSPIRED
    ============================================= */
 
-/* Título com efeito escurecendo nas pontas (gradient mask) */
+/* Título branco com leve sombra */
 .title-kast {
   font-family: "Inter", sans-serif;
-  font-weight: 300; /* De 700 para 300: Elegância fina */
+  font-weight: 300;
   letter-spacing: -0.04em;
   line-height: 0.88;
   text-transform: uppercase;
-  color: white;
-
-  /* Efeito: branco no centro, escurece suavemente nas pontas */
-  background: linear-gradient(
-    90deg,
-    rgba(255,255,255,0.4) 0%,
-    rgba(255,255,255,1) 35%,
-    rgba(255,255,255,1) 65%,
-    rgba(255,255,255,0.4) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ffffff;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.4);
 }
 
 .title-kast-thin {
   font-family: "Inter", sans-serif;
-  font-weight: 100; /* Letra ultra fina */
+  font-weight: 100;
   letter-spacing: -0.02em;
   line-height: 0.95;
-  font-style: normal; /* Removendo italic para um look mais minimal moderno */
-
-  background: linear-gradient(
-    90deg,
-    rgba(255,255,255,0.15) 0%,
-    rgba(255,255,255,0.7) 35%,
-    rgba(255,255,255,0.7) 65%,
-    rgba(255,255,255,0.15) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-style: normal;
+  color: rgba(255,255,255,0.92);
+  text-shadow: 0 2px 20px rgba(0,0,0,0.4);
 }
 
 /* Label minimalista — mais fino */
@@ -164,7 +144,7 @@ html {
 }
 
 /* =============================================
-   BOTÃO PRIMÁRIO — com brilho girando na borda
+   BOTÃO PRIMÁRIO — shimmer deslizante na borda
    ============================================= */
 
 .btn-kast-wrapper {
@@ -172,42 +152,36 @@ html {
   display: inline-flex;
   border-radius: 9999px;
   padding: 1px;
-  background: transparent;
+  background: rgba(255,255,255,0.08);
   overflow: hidden;
   cursor: pointer;
 }
 
-/* Anel animado que gira em volta do botão */
+/* Shimmer: luz que desliza da esquerda para a direita */
 .btn-kast-wrapper::before {
   content: "";
   position: absolute;
-  inset: -60%;
-  background: conic-gradient(
-    from var(--angle, 0deg),
-    transparent 0deg,
-    transparent 120deg,
-    rgba(255, 255, 255, 0.9) 135deg,
-    rgba(255, 255, 255, 0.4) 150deg,
-    transparent 165deg,
-    transparent 240deg,
-    rgba(255, 255, 255, 0.5) 255deg,
-    rgba(255, 255, 255, 0.2) 265deg,
-    transparent 275deg,
-    transparent 360deg
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255,255,255,0.08) 30%,
+    rgba(255,255,255,0.85) 50%,
+    rgba(255,255,255,0.08) 70%,
+    transparent 100%
   );
-  animation: spin-border 3s linear infinite;
+  animation: shimmer-slide 3s ease-in-out infinite;
   border-radius: 9999px;
 }
 
-@property --angle {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-}
-
-@keyframes spin-border {
-  from { --angle: 0deg; }
-  to   { --angle: 360deg; }
+@keyframes shimmer-slide {
+  0%   { left: -80%; opacity: 0; }
+  10%  { opacity: 1; }
+  60%  { opacity: 1; }
+  100% { left: 130%; opacity: 0; }
 }
 
 /* Botão principal — PRETO com texto branco (Kast Minimal) */
@@ -219,15 +193,15 @@ html {
   justify-content: center;
   gap: 0.5rem;
   padding: 0.75rem 2.25rem;
-  background: #050505; /* Preto igual ao fundo */
+  background: #050505;
   color: #ffffff;
   font-family: "Inter", sans-serif;
   font-size: 0.7rem;
-  font-weight: 400; /* Letra fina no botão também */
+  font-weight: 400;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   border-radius: 9999px;
-  border: 1px solid rgba(255,255,255,0.1); 
+  border: none;
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   white-space: nowrap;
@@ -235,15 +209,13 @@ html {
 
 .btn-kast:hover {
   background: #0e0e0e;
-  border-color: rgba(255,255,255,0.4);
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 28px -8px rgba(0,0,0,0.6);
 }
 
 /* Botão outline */
 .btn-kast-outline {
   background: transparent;
-  border-color: rgba(255,255,255,0.08);
 }
 
 /* Botão grande CTA — Ajuste mobile */

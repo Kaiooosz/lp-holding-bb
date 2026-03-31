@@ -6,7 +6,7 @@ import { StripeCheckoutButton } from "@/components/stripe-checkout-button"
 
 export function ContactSection() {
   const WHATSAPP_NUMBER = "5521979901686"
-  const STRIPE_PRODUCT_ID = "prod_U8W26zI0dRzFzG" // ID do produto fornecido pelo usuário
+  const STRIPE_PRODUCT_ID = "prod_UDRLAUzEIEB211" // Consultoria Estratégica Holding - Live
 
   return (
     <section id="contact" className="py-28 md:py-36 bg-[#050505] relative overflow-hidden">
