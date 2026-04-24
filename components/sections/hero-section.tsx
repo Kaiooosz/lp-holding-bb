@@ -88,6 +88,13 @@ export function HeroSection() {
                 </button>
               </span>
             </Link>
+            <Link href="https://www.formsbblaw.com.br/" target="_blank" rel="noopener noreferrer">
+              <span className="btn-kast-wrapper">
+                <button className="btn-kast btn-kast-lg">
+                  Preencha seu Formulário
+                </button>
+              </span>
+            </Link>
           </div>
         </motion.div>
 
