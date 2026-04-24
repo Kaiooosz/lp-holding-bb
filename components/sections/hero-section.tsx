@@ -91,7 +91,7 @@ export function HeroSection() {
             <Link href="https://www.formsbblaw.com.br/" target="_blank" rel="noopener noreferrer">
               <span className="btn-kast-wrapper">
                 <button className="btn-kast btn-kast-lg">
-                  Falar com nossa I.A.
+                  Preencha seu Formulário
                 </button>
               </span>
             </Link>
