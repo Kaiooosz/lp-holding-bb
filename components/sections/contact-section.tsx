@@ -8,7 +8,7 @@ import { StripeCheckoutButton } from "@/components/stripe-checkout-button"
 const WHATSAPP_URL = "https://wa.me/5521979901686?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consultoria%20estrat%C3%A9gica%20de%20Holding%20com%20a%20Bezerra%20Borges%20Advogados"
 
 export function ContactSection() {
-  const STRIPE_PRODUCT_ID = "prod_UQt5dYJOG1ANiX"
+  const STRIPE_PRODUCT_ID = "prod_UDRLAUzEIEB211"
 
   const [form, setForm] = useState({ nome: "", email: "", telefone: "", mensagem: "" })
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
