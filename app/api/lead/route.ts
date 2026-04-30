@@ -20,7 +20,7 @@ export async function POST(req: NextRequest) {
       email,
       phone: telefone,
       message: mensagem || "",
-      fonte: "Landing Page Holding",
+      fonte: "Landing Page Offshore",
     }
 
     const response = await fetch(scriptUrl, {
