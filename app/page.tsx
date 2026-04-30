@@ -7,6 +7,7 @@ import { TestimonialsSection } from "@/components/sections/testimonials-section"
 import { ArticlesSection } from "@/components/sections/articles-section"
 import { FaqSection } from "@/components/sections/faq-section"
 import { ContactSection } from "@/components/sections/contact-section"
+import { LeadFormSection } from "@/components/sections/lead-form-section"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { ScrollProgress } from "@/components/scroll-progress"
@@ -25,6 +26,7 @@ export default function HoldingPage() {
         <TestimonialsSection />
         <ArticlesSection />
         <FaqSection />
+        <LeadFormSection />
         <ContactSection />
       </main>
       <Footer />
