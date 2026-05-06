@@ -216,7 +216,7 @@ export function ContactSection() {
               <div className="relative z-10 border-t border-white/10 pt-10">
                 <div className="flex items-baseline gap-2 mb-8">
                   <span className="text-white/40 text-[10px] md:text-sm font-medium uppercase tracking-wider">Investimento:</span>
-                  <span className="text-white text-3xl md:text-4xl stat-number">USD 125</span>
+                  <span className="text-white text-3xl md:text-4xl stat-number">USD 199</span>
                   <span className="text-white/30 text-[10px] md:text-xs">/ Sessão</span>
                 </div>
 
