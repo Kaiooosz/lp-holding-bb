@@ -23,6 +23,24 @@ const team = [
     image: "/alice.jpg",
   },
   {
+    name: "Allan",
+    role: "Especialista",
+    specialty: "Planejamento Sucessório",
+    image: "/allan.jpg",
+  },
+  {
+    name: "Clara",
+    role: "Business Partner",
+    specialty: "Relacionamento e Negócios",
+    image: "/clara.jpg",
+  },
+  {
+    name: "Micaelle",
+    role: "Consultora Internacional",
+    specialty: "Estruturação Internacional",
+    image: "/micaelle.jpg",
+  },
+  {
     name: "Kaio",
     role: "CTO",
     specialty: "Tecnologia e Operações",
@@ -44,7 +62,7 @@ export function TeamSection() {
           </h2>
         </AnimateOnScroll>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-px bg-white/6">
           {team.map((member, index) => (
             <AnimateOnScroll key={index} delay={index * 0.1}>
               <div className="group relative overflow-hidden bg-[#080808] hover:bg-[#0e0e0e] transition-all duration-300">
