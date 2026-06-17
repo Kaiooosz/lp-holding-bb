@@ -27,8 +27,8 @@ const benefits = [
   },
   {
     icon: Lock,
-    title: "Privacidade Total",
-    description: "Maior discrição sobre o patrimônio através de estruturas legalmente constituídas.",
+    title: "Discrição Patrimonial",
+    description: "Maior discrição sobre o patrimônio, dentro das regras, através de estruturas legalmente constituídas.",
   },
   {
     icon: FileText,

@@ -14,7 +14,7 @@ const footerLinks = {
   services: [
     { label: "Holding Patrimonial", href: "#" },
     { label: "Holding Empresarial", href: "#" },
-    { label: "Estruturas Offshore", href: "#" },
+    { label: "Holding Familiar", href: "#" },
     { label: "Planejamento Sucessório", href: "#" },
   ],
   company: [
@@ -121,6 +121,15 @@ export function Footer() {
               </button>
             </div>
           </div>
+        </div>
+
+        {/* Disclaimer */}
+        <div className="pt-8 border-t border-white/6 mb-8">
+          <p className="body-premium text-white/25 text-[11px] leading-relaxed max-w-4xl">
+            As informações deste site têm caráter educativo e não constituem promessa padronizada de resultado,
+            economia tributária ou proteção. Cada estrutura é definida a partir de diagnóstico individualizado, e
+            regimes fiscais, prazos e obrigações variam conforme o caso concreto, sujeitos à legislação aplicável.
+          </p>
         </div>
 
         {/* Bottom bar */}

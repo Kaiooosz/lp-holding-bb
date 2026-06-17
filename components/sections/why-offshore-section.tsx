@@ -13,18 +13,18 @@ const offshoreReasons = [
   },
   {
     icon: Shield,
-    title: "Blindagem Internacional",
-    description: "Estruturas que oferecem camadas adicionais de proteção reconhecidas internacionalmente.",
+    title: "Separação Patrimonial",
+    description: "Estruturas que adicionam camadas de separação patrimonial lícita, reconhecidas internacionalmente.",
   },
   {
     icon: Banknote,
-    title: "Eficiência Fiscal Global",
-    description: "Planejamento tributário em conformidade com tratados internacionais e legislação vigente.",
+    title: "Estrutura Fiscal Coerente",
+    description: "Planejamento tributário coerente com o regime aplicável, tratados internacionais e legislação vigente.",
   },
   {
     icon: Scale,
-    title: "Conformidade Legal",
-    description: "Todas as estruturas em total conformidade com a legislação brasileira e internacional.",
+    title: "Orientação à Conformidade",
+    description: "Estruturas orientadas à conformidade com a legislação brasileira e internacional e às obrigações aplicáveis.",
   },
 ]
 
@@ -111,8 +111,8 @@ export function WhyOffshoreSection() {
               </ul>
               <div className="mt-10 pt-8 border-t border-white/8">
                 <p className="body-premium text-white/40 text-xs">
-                  Todas as estruturas são implementadas em total conformidade com a legislação brasileira e
-                  internacional.
+                  As estruturas são implementadas de forma orientada à conformidade com a legislação brasileira e
+                  internacional e às obrigações aplicáveis.
                 </p>
               </div>
             </div>

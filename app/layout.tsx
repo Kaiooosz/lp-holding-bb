@@ -11,9 +11,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Bezerra Borges | Holdings Patrimoniais e Empresariais",
+  title: "Holding Patrimonial, Sucessória e Governança | BBLAW",
   description:
-    "Estruture seu patrimônio e empresas com segurança jurídica, eficiência tributária e planejamento sucessório inteligente.",
+    "Estruturação patrimonial e sucessória para empresários e famílias: holdings, governança, sucessão e contratos familiares com análise jurídica, tributária e societária integrada.",
   generator: "v0.app",
 }
 

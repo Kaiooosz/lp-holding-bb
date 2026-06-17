@@ -7,7 +7,7 @@ import Image from "next/image"
 const testimonials = [
   {
     quote:
-      "A Bezerra Borges transformou completamente a gestão do nosso patrimônio familiar. A holding que estruturaram nos deu paz de espírito e economia tributária significativa.",
+      "A Bezerra Borges transformou completamente a gestão do nosso patrimônio familiar. A holding que estruturaram trouxe organização, governança e clareza na sucessão.",
     author: "Roberto M.",
     role: "Empresário do setor industrial",
     image: "/testimonial_roberto.png",
@@ -21,7 +21,7 @@ const testimonials = [
   },
   {
     quote:
-      "A estrutura offshore que implementaram nos permitiu expandir internacionalmente com total segurança jurídica. Recomendo fortemente.",
+      "A estrutura internacional que implementaram nos permitiu expandir com segurança jurídica e organização. Recomendo fortemente.",
     author: "Carlos A.",
     role: "CEO de grupo empresarial",
     image: "/testimonial_carlos.png",

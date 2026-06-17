@@ -63,7 +63,7 @@ export function HeroSection() {
             Patrimoniais
           </h1>
           <h1 className="title-kast text-[clamp(2.2rem,6.2vw,5.8rem)] leading-[0.9] -mt-1">
-            &amp; OFFSHORE
+            &amp; SUCESSÃO
           </h1>
         </motion.div>
 
@@ -75,8 +75,8 @@ export function HeroSection() {
           className="flex flex-col md:flex-row md:items-end gap-8 md:gap-16"
         >
           <p className="body-premium text-white/65 max-w-md text-base">
-            Estruture seu patrimônio e empresas com segurança jurídica, eficiência tributária e planejamento
-            sucessório inteligente. A Bezerra Borges transforma complexidade em estratégia.
+            Estruturação patrimonial e sucessória para empresários e famílias. Organizamos holdings,
+            governança, sucessão e contratos familiares com análise jurídica, tributária e societária integrada.
           </p>
 
           {/* CTAs */}
@@ -84,7 +84,7 @@ export function HeroSection() {
             <Link href="https://wa.me/5521979901686" target="_blank" rel="noopener noreferrer">
               <span className="btn-kast-wrapper">
                 <button className="btn-kast btn-kast-lg btn-kast-outline">
-                  Agendar Consultoria
+                  Solicitar Diagnóstico Patrimonial
                 </button>
               </span>
             </Link>
